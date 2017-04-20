@@ -1,0 +1,32 @@
+{
+  "name": "todoListApi",
+  "version": "1.0.0",
+  "description": "RESTfull todolist Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narendradivi/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Narendra Avula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narendradivi/todoListApi/issues"
+  },
+  "homepage": "https://github.com/narendradivi/todoListApi",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "mongoose": "^4.9.5"
+  }
+}
